@@ -1,0 +1,9 @@
+#USE THIS FILE TO SAVE THE NECESSARY API KEY(S) FOR SYNACK.  ALLOWS YOU TO HANDLE MULTIPLE SOURCE IPS FOR IP-BASED ACLS
+#The format expects 2-3 comma-delimited columns with one key per row for use in different settings (e.g. On/Off VPN)
+#NAME,API_KEY,NOTE
+# Where 
+#      NAME = A simple label so you recognize
+#   API_KEY = The actual API KEY from the Synack Interface
+#      NOTE = A note to hold the IP Address and maybe the expiration date for reference.
+# ON_VPN,%KEY%88AC88AC88AC88AC,10.1.1.0 March 31, 2024
+#OFF_VPN,%KEY%99FB99FB99FB99FB,192.168.1.1 March 31, 2024
